@@ -26,7 +26,7 @@ RESOLUTION = {'Full': (0, 0, 0),
 GPIO.output(MODE, RESOLUTION['1/8'])
 
 step_count = SPR * 9
-delay = .005 / 16
+delay = .005 / 24
 
 counter = 0
 
